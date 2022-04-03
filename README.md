@@ -18,3 +18,7 @@ $git push origin hexo // 第一次可能需要加上--force
 ```
 $git clone -b hexo git@github.com:YeFD/yefd.github.io.git
 ```
+
+```
+$dig blog.xiaoji.icu +noall +answer
+```
