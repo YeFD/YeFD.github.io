@@ -9,7 +9,7 @@ $git init
 // 添加远程仓库地址
 $git remote add origin git@github.com:YeFD/yefd.github.io.git 
 // 新建分支并切换
-$git checkout -b hexo
+$git checkout -b hexo // switch
 // 推送到远程仓库
 $git add .
 $git push origin hexo // 第一次可能需要加上--force
@@ -17,8 +17,19 @@ $git push origin hexo // 第一次可能需要加上--force
 ### hexo项目同步
 ```
 $git clone -b hexo git@github.com:YeFD/yefd.github.io.git
+$npm install hexo-cli -g
+$cd blog
+$npm install
+```
+### 常用命令
+```
+$hexo generate // 生成静态文件
+$hexo server // 启动服务器
+$hexo deploy // 部署
+$hexo new title
 ```
 
 ```
 $dig blog.xiaoji.icu +noall +answer
 ```
+
