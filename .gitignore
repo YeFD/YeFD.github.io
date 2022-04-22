@@ -1,5 +1,6 @@
 blog/node_modules/
 node_modules/
+blog/themes/pure/
 .vscode
 # Windows
 [Dd]esktop.ini
